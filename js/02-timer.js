@@ -30,7 +30,6 @@ startBttn.addEventListener("click", startCountDown);
 function startCountDown(){
     const currentTime = new Date();
     const now = currentTime.getTime();
-    
     const distance = selectedDates - now;
     console.log(distance)
     
